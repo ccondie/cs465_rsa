@@ -4,11 +4,9 @@ from gcd import ext_euc_calc_d
 import os
 
 if __name__ == '__main__':
-    e = 3
-    # p = number.getPrime(512)
-    # q = number.getPrime(512)
-    p = 5
-    q = 11
+    e = 65537
+    p = number.getPrime(512)
+    q = number.getPrime(512)
     n = p * q
     phi = (p - 1) * (q - 1)
 
